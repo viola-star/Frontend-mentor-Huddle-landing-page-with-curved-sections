@@ -1,21 +1,26 @@
-body{
+body {
   margin: 4%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: grey;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: black;
 }
 
-.logo{
+.extra-large-heading{
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+.logo {
   float: left;
 }
 
-.trial-button{
+.trial-button {
   float: right;
   border-color: hsl(322, 100%, 66%);
   color: hsl(322, 100%, 66%);
@@ -23,18 +28,18 @@ h1, h2, h3, h4, h5, h6{
   padding: 0.8% 3.5%;
 }
 
-#intro{
+#intro {
   padding-top: 18%;
   text-align: center;
   margin: 2%;
 }
 
-.about{
+.about {
   width: 50%;
   margin: auto;
 }
 
-.start-button{
+.start-button {
   background-color: hsl(322, 100%, 66%);
   border-radius: 35px;
   color: white;
@@ -42,4 +47,18 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 700;
   padding: 2% 5%;
   margin: 4% auto 6%;
+}
+
+.mockups-image{
+  overflow: scroll;
+}
+
+#stats{
+  text-align: left;
+  margin: 5%;
+}
+
+.community-info{
+  margin-bottom: 10%;
+  text-align: center;
 }
