@@ -85,6 +85,19 @@ footer{
   font-size: 0.86rem;
 }
 
+.contact-info{
+  padding: 5%;
+}
+
+.social-icons{
+  margin: 10% auto;
+}
+
+.social-icon-section{
+  padding: 2% 8% 2% 0;
+  display: inline-block;
+}
+
 .subscription{
   padding: 5% 0;
   margin: auto;
