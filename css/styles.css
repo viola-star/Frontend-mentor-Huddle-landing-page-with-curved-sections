@@ -10,12 +10,12 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
-.extra-large-heading{
+.extra-large-heading {
   font-size: 4.5rem;
   font-weight: 400;
 }
 
-.small-bold-heading{
+.small-bold-heading {
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -53,63 +53,72 @@ h1, h2, h3, h4, h5, h6 {
   margin: 4% auto 6%;
 }
 
-.mockups-image{
-  overflow: scroll;
+.mockups {
+  width: 80%;
 }
 
-#stats{
+#stats {
   text-align: left;
   margin: 5%;
 }
 
-.community-info{
+.community-info {
   margin-bottom: 10%;
   text-align: center;
 }
 
-.community-text{
+.community-text {
   color: grey;
 }
 
-.feature-info{
+.feature-about{
+  margin: auto;
+}
+
+.feature-info {
   font-size: 0.86rem;
 }
 
-#trial{
+.feature-image{
+  width: 90%;
+  padding: 15% 5%;
+}
+
+#trial {
   text-align: center;
   padding: 5%;
 }
 
-footer{
+footer {
   padding: 5%;
   font-size: 0.86rem;
 }
 
-.contact-info{
+.contact-info {
   padding: 5%;
 }
 
-.social-icons{
+.social-icons {
   margin: 10% auto;
 }
 
-.social-icon-section{
+.social-icon-section {
   padding: 2% 8% 2% 0;
   display: inline-block;
 }
 
-.subscription{
+.subscription {
   padding: 5% 0;
   margin: auto;
 }
 
-.newsletter-input{
+.newsletter-input {
   display: inline-block;
-  width: 50%;
-  margin-right: 20px;
+  width: 61%;
+  margin-right: 5px;
 }
 
-.newsletter-subscribe-button{
+.newsletter-subscribe-button {
   float: right;
   background-color: hsl(322, 100%, 66%);
   color: white;
@@ -119,7 +128,7 @@ footer{
   display: inline-block;
 }
 
-.attribution{
+.attribution {
   text-align: center;
   padding: 5%;
   margin: auto;
