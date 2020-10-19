@@ -1,8 +1,7 @@
 body {
   margin: 4%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  color: grey;
+  font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,8 +11,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .extra-large-heading{
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: 400;
+}
+
+.small-bold-heading{
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -61,4 +65,49 @@ h1, h2, h3, h4, h5, h6 {
 .community-info{
   margin-bottom: 10%;
   text-align: center;
+}
+
+.community-text{
+  color: grey;
+}
+
+.feature-info{
+  font-size: 0.86rem;
+}
+
+#trial{
+  text-align: center;
+  padding: 5%;
+}
+
+footer{
+  padding: 5%;
+  font-size: 0.86rem;
+}
+
+.subscription{
+  padding: 5% 0;
+  margin: auto;
+}
+
+.newsletter-input{
+  display: inline-block;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.newsletter-subscribe-button{
+  float: right;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 1.2% 5%;
+  display: inline-block;
+}
+
+.attribution{
+  text-align: center;
+  padding: 5%;
+  margin: auto;
 }
