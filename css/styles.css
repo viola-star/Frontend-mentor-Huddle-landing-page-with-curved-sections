@@ -17,6 +17,22 @@ h1, h2, h3, h4, h5, h6 {
   .footer-begin {
     background-image: url("../images/bg-footer-top-mobile.svg");
   }
+
+  .feature-top-1{
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+  }
+
+  .feature-bottom-1{
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+  }
+
+  .feature-top-2{
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+  }
+
+  .feature-bottom-2{
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+  }
 }
 
 .extra-large-heading {
@@ -82,7 +98,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feature {
-  margin: 4%;
+  margin: 0 4%;
+}
+
+.colored-feature{
+  background-color: hsl(207, 100%, 98%);
 }
 
 .feature-about {
@@ -96,6 +116,34 @@ h1, h2, h3, h4, h5, h6 {
 .feature-image {
   width: 90%;
   padding: 15% 5%;
+}
+
+.feature-top-1{
+  background-image: url("../images/bg-section-top-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 180px;
+}
+
+.feature-bottom-1{
+  background-image: url("../images/bg-section-bottom-desktop-1.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 180px;
+}
+
+.feature-top-2{
+  background-image: url("../images/bg-section-top-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 180px;
+}
+
+.feature-bottom-2{
+  background-image: url("../images/bg-section-top-desktop-2.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 180px;
 }
 
 #trial {
@@ -116,7 +164,6 @@ footer {
   background-repeat: no-repeat;
   background-position: bottom;
   height: 180px;
-  width: 100%;
 }
 
 .contact-info {
